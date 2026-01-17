@@ -1,0 +1,17 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "esnext",
+    // "isolatedModules": true,
+    // "noEmit": true,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    // "esModuleInterop": true,
+    // "allowJs": true,
+    "strict": true,
+    // "strictNullChecks": false
+  },
+  "include": ["src"],
+  "exclude": ["**/*.spec.ts"]
+}
