@@ -5,12 +5,16 @@
     "target": "esnext",
     // "isolatedModules": true,
     // "noEmit": true,
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
     // "esModuleInterop": true,
     // "allowJs": true,
     "strict": true,
     // "strictNullChecks": false
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "typeRoots": ["types"],
+    "types": ["app-window", "css-modules", "external-library"],
   },
   "include": ["src"],
   "exclude": ["**/*.spec.ts"]
